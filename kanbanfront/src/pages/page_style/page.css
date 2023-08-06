@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.box1 {
+    position: relative;
+    height: 38rem;
+    background-color: #d2d2d2a5;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.box1 > .titlemain {
+    font-size: 600%;
+    font-family: fantasy;
+    background-image: linear-gradient(to right, #d63384, #4a00e0);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% .5rem;
+}
+
+.describe {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 200%;
+    font-weight: 600;
+}
+
+.bottom-line {
+    height: .5rem;
+    width: 50%;
+    background-image: linear-gradient(to right, #d63384, #4a00e0);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% .5rem;
+}
+
+.first-landing {
+    background-image: url('Vase.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button > .btn {
+    width: 10rem;
+    height: 3rem;
+    font-weight: 500;
+    font-size: 150%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    border-right: 1rem solid #212529;
+}
+
+.img-1 {
+    position: absolute;
+    bottom: 1rem;
+    right: 4rem;
+    transform: rotate(10deg);
+}
+
+.second-landing {
+    height: 20.5rem;
+    background-color: #d2d2d2;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    background-image: linear-gradient(to bottom, #d2d2d2, #fff);
+}
+
+.card-container {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* .card-body {
+    background-color: #212529;
+} */
+
+h1 {
+    background-image: linear-gradient(to right, #d63384, #4a00e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.backgroudContainer {
+    background-image: url('Vase.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imageCap {
+    /* background-image: url('https://img.freepik.com/free-photo/top-view-arrangement-natural-material-stationery_23-2148898233.jpg?w=1060&t=st=1689069010~exp=1689069610~hmac=14c32035f42be78d677b6e1a8c57cec6f670ac4fb70f4ce5dc10e539a9c15897'); */
+    background-image: url('Coffee.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.layer {
+    position: absolute;
+    background-color: #d2d2d283;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.glass {
+    /* From https://css.glass */
+    background: rgba(211, 211, 211, 0.36);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.1px);
+    -webkit-backdrop-filter: blur(4.1px);
+}
+
+.Tham-kanban {
+    font-family: 'Freehand', cursive;
+    font-size: 250%;
+}
+
+.pm-main-content {
+    background-image: url('Nature.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: bottom;
+}
+
+.light-overlay {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #d2d2d257;
+}
+
+.AddCircle {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.scrollable {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.badge span {
+    /* background-color: #fffbec; */
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+    /* color: #fed85d; */
+    justify-content: center;
+    align-items: center
+}
+
+.badge.On-going span {
+    /* Styles for the 'ongoing' status */
+    background-color: #fff5d0;
+    color: #fed85d;
+}
+
+.badge.Completed span {
+    /* Styles for the 'ongoing' status */
+    background-color: #92ffac;
+    color: #28a745;
+}
+
+.c-details span {
+    font-weight: 300;
+    font-size: 13px
+}
+
+.dragging {
+    opacity: 0.6;
+    transform: scale(0.95);
+    transition: opacity 0.2s, transform 0.2s;
+}
+
+.tcm-main-content {
+    background-image: url('MountOcean.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: bottom;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.light-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: #d2d2d257; Darken the background with an alpha value */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Set a high z-index to ensure the modal overlay is above other content */
+}
+

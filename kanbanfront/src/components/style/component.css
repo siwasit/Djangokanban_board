@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-family: 'Freehand', cursive;
+}
+
+nav {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: #d2d2d2;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 500;
+}
+
+.footer-card {
+    width: 15rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    
+}
+
+.footer-card >  h4 {
+    border-bottom: .1rem solid #d2d2d2;
+}
+
+/* .footer-card > ul > li {
+    list-style-type: none;
+} */
+
+.hr-line {
+    height: 1px;
+    width: 50%;
+    background-color: #d2d2d2;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% .5rem;
+}
+
+/* style={{borderLeft: '1px solid #d2d2d2'}} */
+.brand {
+    font-family: 'Freehand', cursive;
+    font-size: 200%;
+    border-bottom: .1rem solid #d2d2d2;
+}
+
+.sidebar-collapsed {
+    width: 2.5rem;
+    overflow: hidden;
+    transition: width 0.5s ease;
+}
+  
+.sidebar-expanded {
+    width: 20%;
+    transition: width 0.5s ease;
+}
+
+.taskAmount {
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 50%;
+    
+}
+
+.card-text {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.heading {
+    height: 25%; /* Change this value to your desired limit */
+    overflow-y: auto;
+}
+
+
