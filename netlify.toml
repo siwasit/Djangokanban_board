@@ -1,3 +1,0 @@
-[build]
-  publish = "kanbanfront/build/static" 
-  command = "python manage.py collectstatic --noinput && python manage.py migrate" 
